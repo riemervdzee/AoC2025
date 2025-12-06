@@ -3,12 +3,13 @@ package main
 import (
 	"advent2025/day01"
 	"advent2025/day02"
+	"advent2025/day03"
 	"fmt"
 	"time"
 )
 
 func main() {
-	days := []func(){day01.Process, day02.Process}
+	days := []func(){day01.Process, day02.Process, day03.Process}
 	totalStart := time.Now()
 
 	for _, function := range days {
