@@ -36,5 +36,7 @@ func Process() {
 		}
 	}
 
-	fmt.Println(part1, part2)
+	fmt.Println("Day 1 Results")
+	fmt.Println("Part1", part1)
+	fmt.Println("Part2", part2)
 }
